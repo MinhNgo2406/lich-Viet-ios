@@ -1,6 +1,7 @@
 # Lịch Việt
 
 Ứng dụng lịch iPhone kết hợp lịch dương và âm lịch Việt Nam, ghi chú theo ngày, nhắc việc và xem sự kiện Google Calendar.
+Ứng dụng này thuộc repository `lich-Viet-ios`.
 
 ## Mở project
 
