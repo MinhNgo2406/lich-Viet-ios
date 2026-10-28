@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#26334A"/>
+      <stop offset="1" stop-color="#172238"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFCF4"/>
+      <stop offset="1" stop-color="#F2E9D8"/>
+    </linearGradient>
+    <clipPath id="page">
+      <rect x="142" y="118" width="740" height="788" rx="132"/>
+    </clipPath>
+    <filter id="shadow" x="80" y="72" width="864" height="900" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="22"/>
+      <feOffset dy="18"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.34"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="848" cy="164" r="5" fill="#F5D98B" opacity="0.75"/>
+  <circle cx="190" cy="838" r="4" fill="#F5D98B" opacity="0.55"/>
+  <path d="M817 248l8 21 21 8-21 8-8 21-8-21-21-8 21-8z" fill="#F5D98B" opacity="0.8"/>
+  <g filter="url(#shadow)">
+    <rect x="142" y="118" width="740" height="788" rx="132" fill="url(#paper)"/>
+    <g clip-path="url(#page)">
+      <path d="M142 118h740v222H142z" fill="#B94938"/>
+      <path d="M142 294h740v46H142z" fill="#A83E31" opacity="0.36"/>
+      <path d="M326 126v104M698 126v104" stroke="#F2DCC0" stroke-width="30" stroke-linecap="round"/>
+      <path d="M326 128v96M698 128v96" stroke="#A33B32" stroke-width="9" stroke-linecap="round" opacity="0.55"/>
+      <circle cx="512" cy="492" r="142" fill="#EBD9AE" opacity="0.36"/>
+      <path d="M559 390c-81 19-116 122-61 187 35 41 96 53 143 27-23 49-73 83-132 83-81 0-146-65-146-146s65-146 146-146c18 0 35 3 50 9z" fill="#C39A4D"/>
+      <path d="M667 401l13 33 34 13-34 13-13 34-13-34-34-13 34-13z" fill="#B94938"/>
+      <circle cx="365" cy="656" r="11" fill="#D7CDB9"/>
+      <circle cx="439" cy="656" r="11" fill="#D7CDB9"/>
+      <circle cx="513" cy="656" r="11" fill="#D7CDB9"/>
+      <circle cx="587" cy="656" r="11" fill="#D7CDB9"/>
+      <circle cx="661" cy="656" r="11" fill="#B94938"/>
+      <circle cx="365" cy="733" r="11" fill="#D7CDB9"/>
+      <circle cx="439" cy="733" r="11" fill="#D7CDB9"/>
+      <circle cx="513" cy="733" r="11" fill="#D7CDB9"/>
+      <circle cx="587" cy="733" r="11" fill="#D7CDB9"/>
+      <circle cx="661" cy="733" r="11" fill="#D7CDB9"/>
+    </g>
+    <rect x="143.5" y="119.5" width="737" height="785" rx="130.5" fill="none" stroke="#FFFDF7" stroke-opacity="0.32" stroke-width="3"/>
+  </g>
+</svg>

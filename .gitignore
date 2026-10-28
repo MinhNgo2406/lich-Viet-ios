@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Xcode user settings and build output
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager caches
+.build/
+Packages/
+SourcePackages/
+
+# Local signing and environment files
+*.mobileprovision
+*.p12
+.env
+.env.*
